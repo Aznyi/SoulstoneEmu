@@ -29,6 +29,7 @@ RequiredSkillSubRank is now RequiredSpell
 RequiredReputation is now RequiredReputationFaction and RequiredReputationRank
 
 This lays out the columns for a better understanding as previously they were just Rank1, Rank2, Unk etc.
+
 ----
 Revision: 18
 Author: Aznyi
@@ -52,7 +53,8 @@ Message:
 Example:
 .recall port -> .teleport to
 .recall port player -> .teleport player
-.recall port add -> .teleport add
+.recall port add-> .teleport add
+
 ----
 Revision: 15
 Author: Aznyi
@@ -83,6 +85,7 @@ TO-DO
 
 Fix the Deeprun Tram as it is not present or spawned in world and investigate how it is handled from a core perspective.
 Correct speed hacking on transports to not disconnect, possibly do a GOBJ Select and check if it is near and disable speed hacking if so? Other cores just seem to add delays to theirs but this seems easy to bypass.
+
 ----
 Revision: 12
 Author: Aznyi
@@ -100,6 +103,7 @@ Message:
 * Converted Quest tables from UDB to Ascent for all quest templates and for the start and stop assigned NPCs
 
 This fixes the first noticed issue.. when going into game you couldn't do any starting quests at all now you can.
+
 ----
 Revision: 10
 Author: Aznyi
@@ -107,12 +111,14 @@ Date: Tuesday, September 8, 2020 1:59:20 PM
 Message:
 * Resolving a few more 2.4.3 login issues
 * Removed AD extractor and left the compiled version
+
 ----
 Revision: 9
 Author: Aznyi
 Date: Monday, September 7, 2020 9:03:57 PM
 Message:
 * Name correction for compiling
+
 ----
 Revision: 8
 Author: Aznyi
@@ -120,6 +126,7 @@ Date: Monday, September 7, 2020 8:59:33 PM
 Message:
 * Updated Spell.dbc format for 2.4.3
 * Updated login capability to version 2.4.3 of World of Warcraft, Credits to the Wcell / MaNGoS teams for the encryption method discovery
+
 ----
 Revision: 7
 Author: Aznyi
@@ -130,6 +137,7 @@ Message:
 TO-DO
 
 Review how MaNGoS handles 2.4.3 and implement it.
+
 ----
 Revision: 6
 Author: Aznyi
@@ -148,6 +156,7 @@ Message:
 TO-DO
 
 Fix 260 compile warnings..
+
 ----
 Revision: 4
 Author: Aznyi
@@ -158,6 +167,7 @@ Message:
 TO-DO:
 
 Correct laundry list of warnings regarding uninitialized variables
+
 ----
 Revision: 3
 Author: Aznyi
@@ -168,6 +178,7 @@ Message:
 * Updated StackWalker to the latest version this corrects a majority of compiling issues with VS2019
 * hash_map & hash_set are depreciated we have moved this to unordered_map & unordered_set correcting multiple compiling issues
 * Corrected compiling issue in CrashHandler.cpp after updating StackWalker
+
 ----
 Revision: 2
 Author: Aznyi
@@ -180,5 +191,5 @@ Message:
 TO-DO:
 
 Correct compiling, update source code to latest standards.
-----
+
 
